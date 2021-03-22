@@ -5,6 +5,8 @@ import "./components/css/display.css";
 
 import "./app.css";
 
+/* eslint no-eval: 0 */
+
 class App extends Component {
   state = {
     display: undefined,
