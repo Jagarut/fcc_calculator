@@ -1,0 +1,41 @@
+const Keys = [
+  { type: "", id: "clear", symbol: "AC" },
+  { type: "operand", id: "divide", symbol: "/" },
+  { type: "operand", id: "multiply", symbol: "*" },
+  { type: "number", id: "seven", symbol: "7" },
+  { type: "number", id: "eight", symbol: "8" },
+  { type: "number", id: "nine", symbol: "9" },
+  { type: "operand", id: "subtract", symbol: "-" },
+  { type: "number", id: "four", symbol: "4" },
+  { type: "number", id: "five", symbol: "5" },
+  { type: "number", id: "six", symbol: "6" },
+  { type: "operand", id: "add", symbol: "+" },
+  { type: "number", id: "one", symbol: "1" },
+  { type: "number", id: "two", symbol: "2" },
+  { type: "number", id: "three", symbol: "3" },
+  { type: "number", id: "decimal", symbol: "." },
+  { type: "number", id: "zero", symbol: "0" },
+  { type: "", id: "equals", symbol: "=" },
+];
+
+export const PAIRS = {
+  clear: "AC",
+  divide: "/",
+  multiply: "*",
+  seven: "7",
+  eight: "8",
+  nine: "9",
+  subtract: "-",
+  four: "4",
+  five: "5",
+  six: "6",
+  add: "+",
+  one: "1",
+  two: "2",
+  three: "3",
+  decimal: ".",
+  zero: "0",
+  equals: "=",
+};
+
+export default Keys;
